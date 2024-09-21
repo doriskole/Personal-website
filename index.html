@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--primary meta tags-->
+  <title>Doris Kole</title>
+  <meta name="title" content="Doris Kole">
+  <meta name="description" content="---------">
+
+  <!-- favicon-->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- preload images -->
+  <link rel="preload" as="image" href="./assets/images/Profilepic.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- Preloader-->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!--Header -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Me</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>Reviews</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+   </header>
+
+
+
+  <section id="profile">
+    <div class="section__pic-container" data-tilt>
+      <img src="./assets/images/Profilepic.png" alt="Doris profile picture" />
+    </div>
+
+
+
+
+
+    <div class="section__text">
+
+      <h1 class="title1">Doris Kole</h1> <br>
+
+      <p class="section__text__p1">I am a passionate:  </p>
+      <p class="section__text__p2">  <span1>  </span1> </p>
+
+
+
+
+      <div class="btn-container">
+        <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/CV - Doris Kole (Sep 24).pdf')"
+        >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img
+                src="/assets/images/linkedin.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/doris-kole/'"
+
+        />
+        <img
+                src="/assets/images/github.webp"
+                alt="My Github profile"
+                class="icon"
+                onclick="location.href='https://github.com/doriskole'"
+        />
+      </div>
+
+      
+    </div>
+
+  </section>
+
+
+<!--  //////////////////////////////////-->
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+<!--      <div class="hero text-center" id="home">-->
+<!--        <div class="container">-->
+
+<!--          <div class="banner-outline has-after">-->
+
+<!--            <div class="Profilepic img-holder has-after" style="&#45;&#45;width: 300; &#45;&#45;height: 400;" data-tilt>-->
+<!--              <img src="./assets/images/Profilepic.jpg" width="500" height="680" alt="Doris Kole" class="img-cover">-->
+<!--            </div>-->
+
+<!--            <span class="span title">Doris Kole</span>-->
+
+<!--          </div>-->
+
+<!--          <div class="hero-content">-->
+
+<!--            <h1 class="h1 title">Get Your Product Identity From Me.</h1>-->
+
+<!--            <div class="wrapper">-->
+<!--              <a href="#" class="btn btn:hover">-->
+<!--                <span class="span">Download CV</span>-->
+
+<!--                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>-->
+<!--              </a>-->
+
+<!--              <p class="hero-text">-->
+<!--                From device to cloud to edge Innovate from anywhere with secure-->
+<!--              </p>-->
+<!--            </div>-->
+
+<!--          </div>-->
+
+<!--          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">-->
+
+<!--          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">-->
+
+<!--        </div>-->
+<!--      </div>-->
+
+
+
+
+
+      <!--
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+<!--                  <a href="#">-->
+                    IT <br>
+                    Support
+<!--                  </a>-->
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service2.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+<!--                  <a href="#">-->
+                    TOEFL <br>
+                    Tutoring
+<!--                  </a>-->
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+<!--                  <a href="#">-->
+                    Social <br>
+                    Media Marketing
+<!--                  </a>-->
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service4.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+<!--                  <a href="#">-->
+                    Web <br>
+                    Development
+<!--                  </a>-->
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skills</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="education">Eduacation</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awards">Activities</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="experience">Experience</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+
+
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    Aspiring Data Scientist
+                  </h2>
+
+                  <p class="section-text">
+
+                    As a recent Computer Engineering graduate from Albania, I am eager to continue expanding my skills and building connections within the industry. <br>
+                    Currently as an IT Support Specialist, I am deeply immersed in the fields of Networking and Linux. <br>
+                    My current goal is to pursue graduate studies abroad, where I can further enhance my skills while gaining the valuable international experience I've always aspired to.<br>
+                    I have a strong interest in Artificial Intelligence and Data Science. My goal is to pursue a career in Data Science or a related area, where I can apply my passion for technology to solve complex problems.<br>
+                    I am always open to new opportunities and ready to challenge myself as I grow in this field.
+
+
+                  </p>
+
+<!--                  <ul class="about-list">-->
+
+<!--                    <li class="about-item">-->
+<!--                      <p class="list-title">Name</p>-->
+
+<!--                      <span class="span title h5">Doris Kole</span>-->
+<!--                    </li>-->
+
+<!--                    <li class="about-item">-->
+<!--                      <p class="list-title">Phone Number</p>-->
+
+<!--                      <span class="span title h5">123. 456. 789. 01</span>-->
+<!--                    </li>-->
+
+<!--                    <li class="about-item">-->
+<!--                      <p class="list-title">Email Address</p>-->
+
+<!--                      <span class="span title h5">info@Doris.com</span>-->
+<!--                    </li>-->
+
+<!--                    <li class="about-item">-->
+<!--                      <p class="list-title">Social Network</p>-->
+
+<!--                      <div class="social-list">-->
+
+<!--                        <a href="#" class="social-link h6" title="Facebook">Fb.</a>-->
+<!--                        <a href="#" class="social-link h6" title="Behance">Be.</a>-->
+<!--                        <a href="#" class="social-link h6" title="Linkedin">Ln.</a>-->
+<!--                        <a href="#" class="social-link h6" title="Dribbble">Dr.</a>-->
+
+<!--                      </div>-->
+<!--                    </li>-->
+
+<!--                  </ul>-->
+
+                </div>
+
+              </div>
+            </div>
+
+          <div class="tab-content" data-tab-content="skillset">
+            <div class="grid-list">
+
+              <div class="skill-content">
+
+
+                <ul class="skill-list">
+                  <li>
+                    <div class="skill-wrapper">
+                      <span class="span">Java & Python</span>
+                      <span class="value">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 90%"></div>
+                    </div>
+                  </li>
+
+
+
+                  <li>
+                    <div class="skill-wrapper">
+                      <span class="span">JavaScript / HTML / CSS</span>
+                      <span class="value">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                  </li>
+
+
+                  <li>
+                    <div class="skill-wrapper">
+                      <span class="span">Oracle / MySQL </span>
+                      <span class="value">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                  </li>
+
+
+                  <li>
+                    <div class="skill-wrapper">
+                      <span class="span">Linux/WHM/cPanel</span>
+                      <span class="value">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+              <!-- All figures for the icons -->
+              <div class="icons-container">
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill1.png" alt="skill banner" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill2.png" alt="skill banner 2" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill3.png" alt="skill banner 3" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill4.png" alt="skill banner 4" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill5.png" alt="skill banner 5" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill6.png" alt="skill banner 6" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill7.png" alt="skill banner 7" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill8.png" alt="skill banner 8" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill9.png" alt="skill banner 9" class="img-cover1">
+                </figure>
+
+                <figure class="img-holder1" data-tilt>
+                  <img src="./assets/images/skill10.png" alt="skill banner 10" class="img-cover1">
+                </figure>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <div class="tab-content" data-tab-content="education">
+
+            <div class="skill-content">
+
+              <p class="institution" >
+                <span style="display: flex; align-items: center;">
+                   <img src="/assets/images/upt.png" alt="University Logo" style="height: 50px; margin-right: 15px;">
+                     Polytechnic University of Tirana
+                </span>
+                <span style="font-size: 0.7em; margin-left: auto;">October 2021 - July 2024</span>
+              </p>
+
+              <h1 class="degree">
+                Bachelor of Science in Computer Engineering
+              </h1>
+              <br>
+
+              <div class="courses">
+                <h2><strong>Main Courses:</strong></h2>
+
+
+                  <ul >
+                    <li>Calculus</li>
+                    <li>Electronics</li>
+                    <li>Signals and Systems</li>
+                    <li>Computer Networking</li>
+                    <li>Operating Systems</li>
+                    <li>Computer Organization</li>
+                    <li>Data Structures</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Algorithms</li>
+                    <li>Database</li>
+                    <li>Web Programming</li>
+                    <li>Software Engineering</li>
+                  </ul>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+            <div class="tab-content" data-tab-content="awards">
+
+              <h3 class="h4 title section-title">
+                <a href="https://www.cassini.eu/hackathons/" target="_blank" class="quiz-link">
+                7th CASSINI Hackathon
+                </a>
+              </h3>
+
+              <ul class="grid-list">
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awards-1.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awards-2.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awards-3.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+              </ul>    <br>
+
+<!--              EUROPEAN MONEY QUIZ-->
+              <h3 class="h4 title section-title">
+                <a href="https://www.youtube.com/watch?v=JkuuiJt9iZc" target="_blank" class="quiz-link">
+               European Money Quiz
+                </a>
+              </h3>
+
+              <ul class="grid-list">
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/emq1.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                           class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/emq2.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                           class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/emq3.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                           class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+              </ul>
+
+
+
+            </div>
+
+
+<!--          EXPERIENCE-->
+
+
+
+            <div class="tab-content" data-tab-content="experience">
+
+              <div class="skill-content">
+
+                <p class="institution" >
+                <span style="display: flex; align-items: center;">
+                   <img src="/assets/images/ts.png" alt="TS logo" style="height: 50px; margin-right: 15px;">
+                  <a href="https://www.touchsupport.com/" target="_blank" class="quiz-link">
+                     Touch Support Inc.
+                  </a>
+                </span>
+                  <span style="font-size: 0.7em; margin-left: auto;">February 2024 - Present</span>
+                </p>
+
+                <h1 style="font-size: 1em; font-weight: 300; margin-top: 5px; letter-spacing: 0.5px; font-style: italic">
+                  Chicago, IL &bull; Full-time &bull; Remote
+                </h1>
+
+                <h2 class="role">
+                  Junior L1 IT Support Specialist
+                </h2>
+                <br>
+
+                <div class="job-desc">
+                  <p style="flex-grow: 1;">
+                    Working for the Liquid Web hosting company, providing Linux technical support. <br>
+                    Resolving issues related to customers' servers by assisting them through calls, emails, and chats. <br>
+                    Skilled in Linux, WHM, cPanel, Plesk, Interworx, WordPress, MySQL, CLI
+                  </p>
+                  <img src="/assets/images/lw.png" alt="Liquid Web Logo" style="height: 100px; margin-right: 35px">
+                </div>
+
+
+              </div>
+
+            </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #CTA
+      -->
+
+      <section class="section cta" >
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Some Projects
+          </h2>
+
+
+        </div>
+      </section>
+
+
+
+
+
+<!--Projectss-->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/tirana.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project 1" class="img-cover">
+
+                <a href="https://github.com/doriskole/TiranaGoesGreen" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Python, HTML/CSS/JS</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/doriskole/TiranaGoesGreen" class="card-title">TiranaGoesGreen</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+<!--PROJECT 2-->
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/uni.png" width="1000" height="763" loading="lazy"
+                  alt="Project2" class="img-cover">
+
+                <a href="https://github.com/doriskole/RateApplicationUniversity2" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Java, SpringBoot, HTML</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/doriskole/RateApplicationUniversity2" class="card-title">CourseFeedbackApp</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+<!--PROJEKT 3-->
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/weka.png" width="1000" height="763" loading="lazy"
+                  alt="Project 3" class="img-cover">
+
+                <a href="https://github.com/doriskole/Bachelor-thesis" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Java, Algorithms, WEKA</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/doriskole/Bachelor-thesis" class="card-title">Spam Emails Classifier</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+<!--PROJEKT 4-->
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/f1.avif" width="1000" height="763" loading="lazy"
+                  alt="Project 4" class="img-cover">
+
+                <a href="https://github.com/doriskole/F1Race" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Java, JavaSwing</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/doriskole/F1Race" class="card-title">Formula 1 management</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+
+
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!--
+        Review from Gertio
+      -->
+
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+
+          <div class="testi-content">
+
+            <blockquote class="title h4 section-text">
+              &ldquo; Doris has consistently demonstrated exceptional technical expertise and dedication to our team. She always provides timely, efficient solutions to our clients, approaching tasks with a problem-solving mindset. &rdquo;
+            </blockquote>
+
+
+              <div>
+                <p class="title h5 card-title">Gertio Xhelili</p>
+
+                <p class="card-subtitle">TouchSupport MH Support Supervisor</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        Contact forms
+      -->
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 40px;">
+
+          <h2 class="title h2 section-title" style="font-size: 5rem; text-align: center; margin-bottom: 50px;">
+            Let's Connect!
+          </h2>
+
+          <div class="contact-content" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 50px;">
+
+            <!-- Contact Form Section -->
+            <form action="./index.html" method="post" class="contact-form" style="flex: 1; max-width: 50%; width: 100%; padding: 40px; border-radius: 10px;">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field" style="width: 100%; padding: 20px; margin-bottom: 30px; font-size: 1.6rem; border: 2px solid #6b6a6a; border-radius: 5px; background-color: transparent; color: #fff;">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required class="input-field" style="width: 100%; padding: 20px; margin-bottom: 30px; font-size: 1.6rem; border: 2px solid #625f5f; border-radius: 5px; background-color: transparent; color: #fff;">
+
+              <textarea name="message" placeholder="Your message" required class="input-field" style="width: 100%; padding: 20px; height: 180px; font-size: 1.6rem; margin-bottom: 30px; border: 2px solid #4d4b4b; border-radius: 5px; background-color: transparent; color: #fff;"></textarea>
+
+              <button type="submit" class="btn" style="width: 100%; padding: 20px; font-size: 1.8rem; cursor: pointer; background-color: #9d804a; color: white; border: none; border-radius: 5px;">
+                <span>Submit</span>
+                <ion-icon name="arrow-forward" aria-hidden="true" style="font-size: 1.8rem; margin-left: 10px;"></ion-icon>
+              </button>
+
+            </form>
+
+            <!-- Contact Details Section -->
+            <div class="stylish-section" style="flex: 1; max-width: 40%; width: 100%; text-align: left; margin-top: 40px;">
+
+              <ul class="contact-list stylish-icons" style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 30px;">
+
+                <li class="contact-item" style="display: flex; align-items: center;">
+                  <div class="item-icon" style="margin-right: 15px;">
+                    <ion-icon name="call-outline" style="font-size: 2.5rem; color: #ddad6d;"></ion-icon>
+                  </div>
+                  <div style="font-size: 1.6rem;">
+                    <span class="title h6">+355694881050</span>
+                  </div>
+                </li>
+
+                <li class="contact-item" style="display: flex; align-items: center;">
+                  <div class="item-icon" style="margin-right: 15px;">
+                    <ion-icon name="location-outline" style="font-size: 2.5rem; color: #ddad6d;"></ion-icon>
+                  </div>
+                  <div style="font-size: 1.6rem;">
+                    <address class="title h6">
+                      Tirana <br> ALBANIA
+                    </address>
+                  </div>
+                </li>
+
+                <li class="contact-item" style="display: flex; align-items: center;">
+                  <div class="item-icon" style="margin-right: 15px;">
+                    <ion-icon name="mail-outline" style="font-size: 2.5rem; color: #ddad6d;"></ion-icon>
+                  </div>
+                  <div style="font-size: 1.6rem;">
+                    <span class="title h6">koledoris18@gmail.com</span>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+<!--  FOOTER-->
+
+  <footer class="footer" style="background-color: #9d804a; color: #ecf0f1; padding: 15px 0;">
+    <div class="container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
+
+      <p class="copyright" style="font-size: 1.6rem; margin-bottom: 15px;">
+        &copy; 2024 Doris Kole
+      </p>
+
+
+      <a href="#top" class="back-top-btn" >
+        <span class="span" style="margin-right: 8px;">Back To Top</span>
+        <ion-icon name="arrow-up" aria-hidden="true" style="font-size: 1.5rem;"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- custom cursor  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- cust js link  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
