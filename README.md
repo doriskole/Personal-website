@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 This is my personal portfolio repository! 
-This project showcases some og my skills, projects I have worked on, experience and activities. 
+This project showcases some of my skills, projects I have worked on, experience and activities. 
 
 
 ## Technologies Used
