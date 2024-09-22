@@ -723,6 +723,12 @@ body.nav-active { overflow: hidden; }
 .contact-content {
   display: grid;
   gap: 60px;
+
+
+  /*Added recently*/
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .contact-form .input-field {
@@ -812,8 +818,59 @@ textarea.input-field {
 
 
 
+/*--------------------------------------------------------------------------------------------------*/
 
+@media (max-width: 768px) {
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  .section__pic-container {
+    margin-bottom: 20px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+  .section__pic-container {
+    max-width: 250px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .section__text {
+    padding: 10px;
+  }
+
+  h1.title1 {
+    font-size: 1.5em;
+  }
+
+  p.section__text__p1 {
+    font-size: 1em;
+  }
+
+  .btn {
+    font-size: 0.9em;
+  }
+}
+
+/*------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 575px) {
 
@@ -1093,6 +1150,8 @@ textarea.input-field {
   .navbar-list {
     display: flex;
     gap: 16px;
+    font-size: large;
+    font-family: "Consolas";
   }
 
   .header .btn { display: flex; }
@@ -1154,8 +1213,15 @@ textarea.input-field {
 
   .contact-content {
     grid-template-columns: 0.8fr 1fr 0.6fr;
-    gap: 30px;
-    align-items: center;
+    /*gap: 30px;*/
+    /*align-items: center;*/
+
+    /*Added recently*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
   }
 
 
