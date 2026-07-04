@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--primary meta tags-->
-    <title>Doris Kole</title>
+    <title>Doris Kole | Computer Engineer</title>
     <meta name="title" content="Doris Kole">
-    <meta name="description" content="---------">
+    <meta name="description" content="Computer engineer and data science master's student based in Vienna. Portfolio, projects, experience, and contact information for Doris Kole.">
 
     <!-- favicon-->
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-            href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Roboto:wght@400;500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
             rel="stylesheet"
     >
 
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- preload images -->
-    <link rel="preload" as="image" href="./assets/images/Profilepic.jpg">
+    <link rel="preload" as="image" href="./assets/images/Profilepic.png">
 </head>
 
 <body id="top">
@@ -65,7 +65,7 @@
                 <li><a href="#service" class="navbar-link" data-nav-link>Services</a></li>
                 <li><a href="#about" class="navbar-link" data-nav-link>About Me</a></li>
                 <li><a href="#project" class="navbar-link" data-nav-link>Projects</a></li>
-                <li><a href="#review" class="navbar-link" data-nav-link>Reviews</a></li>
+                <li><a href="#review" class="navbar-link" data-nav-link>Recommendation</a></li>
                 <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
             </ul>
         </nav>
@@ -81,39 +81,45 @@
 
     <div class="section__text">
         <h1 class="title1">Doris Kole</h1>
-        <br>
-
         <p class="section__text__p1">I am a passionate:</p>
-        <p class="section__text__p2"><span1></span1></p>
+        <p class="section__text__p2" aria-label="Computer Engineer and IT Support Specialist">
+            <span class="role-switcher" aria-hidden="true">
+                <span>Computer Engineer</span>
+                <span>IT Support Specialist</span>
+            </span>
+        </p>
+        <p class="section__intro">I am a Computer Science master's student specializing in Data Science, eager to learn, build, and connect.</p>
 
         <div class="btn-container">
-            <button class="btn btn-color-2" type="button" onclick="window.open('./assets/Doris Kole CV.pdf')">
+            <a class="btn btn-color-2" href="./assets/Doris%20Kole%20CV.pdf" target="_blank" rel="noopener">
                 Download CV
-            </button>
-            <button class="btn btn-color-1" type="button" onclick="location.href='./#contact'">
+            </a>
+            <a class="btn btn-color-1" href="#contact">
                 Contact Info
-            </button>
+            </a>
         </div>
 
         <div id="socials-container">
 
-            <img
+            <a href="https://www.linkedin.com/in/doris-kole/" class="social-link" target="_blank" rel="noopener" aria-label="Open Doris Kole's LinkedIn profile">
+                <img
                     src="./assets/images/linkedin.png"
                     alt="My LinkedIn profile"
                     class="icon"
-                    onclick="window.open('https://www.linkedin.com/in/doris-kole/', '_blank')"
                     width="30"
                     height="30"
-            />
+                />
+            </a>
 
-            <img
+            <a href="https://github.com/doriskole" class="social-link" target="_blank" rel="noopener" aria-label="Open Doris Kole's GitHub profile">
+                <img
                     src="./assets/images/github.webp"
                     alt="My Github profile"
                     class="icon"
-                    onclick="window.open('https://github.com/doriskole', '_blank')"
                     width="30"
                     height="30"
-            />
+                />
+            </a>
         </div>
     </div>
 </div>
@@ -121,42 +127,44 @@
 <main>
     <article>
         <!-- #SERVICE -->
-        <section class="service text-center" aria-label="my services" id="service">
+        <section class="service text-center" aria-label="services" id="service">
             <div class="container">
+                <h2 class="service-heading title h2 section-title text-center">Services</h2>
+
                 <ul class="service-list">
                     <li class="service-item">
                         <div class="service-card">
                             <div class="card-icon">
-                                <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy" alt="service icon">
+                                <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy" alt="">
                             </div>
-                            <h3 class="card-title">IT <br>Support</h3>
+                            <h3 class="card-title">IT Support</h3>
                         </div>
                     </li>
 
                     <li class="service-item">
                         <div class="service-card">
                             <div class="card-icon">
-                                <img src="./assets/images/service2.svg" width="80" height="80" loading="lazy" alt="service icon">
+                                <img src="./assets/images/service2.svg" width="80" height="80" loading="lazy" alt="">
                             </div>
-                            <h3 class="card-title">TOEFL <br>Tutoring</h3>
+                            <h3 class="card-title">TOEFL Tutoring</h3>
                         </div>
                     </li>
 
                     <li class="service-item">
                         <div class="service-card">
                             <div class="card-icon">
-                                <img src="./assets/images/service3.svg" width="80" height="80" loading="lazy" alt="service icon">
+                                <img src="./assets/images/service3.svg" width="80" height="80" loading="lazy" alt="">
                             </div>
-                            <h3 class="card-title">Social <br>Media Marketing</h3>
+                            <h3 class="card-title">Social Media Marketing</h3>
                         </div>
                     </li>
 
                     <li class="service-item">
                         <div class="service-card">
                             <div class="card-icon">
-                                <img src="./assets/images/service4.svg" width="80" height="80" loading="lazy" alt="service icon">
+                                <img src="./assets/images/service4.svg" width="80" height="80" loading="lazy" alt="">
                             </div>
-                            <h3 class="card-title">Computer <br>Engineering</h3>
+                            <h3 class="card-title">Computer Engineering</h3>
                         </div>
                     </li>
                 </ul>
@@ -164,7 +172,7 @@
         </section>
 
         <!-- #ABOUT -->
-        <section class="section about" aria-label="about-me" id="about">
+        <section class="section about" aria-label="about me" id="about">
             <div class="container">
                 <div class="tab-container">
                     <ul class="tab-btn-list">
@@ -178,12 +186,12 @@
                     <div class="tab-content active" data-tab-content="about">
                         <div class="about-content">
                             <h2 class="h4 title section-title">Aspiring Data Scientist</h2>
-                            <p class="section-text syne-body">
-                                As a current Master's student in Computer Science at University of Vienna, specializing in Data Science, I am continuously expanding my technical skills while building meaningful connections within the industry. <br>
-                                I have a solid profile in Computer Engineering, with a Bachelor's degree from Polytechnic University of Tirana. <br>
-                                I am particularly interested in Artificial Intelligence and Data Science, and I aim to pursue a career where I can apply my passion for technology to solve complex, real-world problems. <br>
-                                I am always open to new opportunities and motivated to challenge myself as I grow in this field.
-                            </p>
+                            <div class="section-text syne-body">
+                                <p>As a Master's student in Computer Science at the University of Vienna, specializing in Data Science, I am continuously expanding my technical skills while building meaningful industry connections.</p>
+                                <p>I have a solid foundation in Computer Engineering from the Polytechnic University of Tirana.</p>
+                                <p>I am particularly interested in Artificial Intelligence and Data Science, and I want to apply technology to solve practical, real-world problems.</p>
+                                <p>I am open to new opportunities and motivated to keep challenging myself as I grow in this field.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -192,7 +200,7 @@
                             <div class="skill-content">
                                 <ul class="skill-list">
                                     <li>
-                                        <div class="skill-wrapper"><span class="span">Java & Python</span></div>
+                                        <div class="skill-wrapper"><span class="span">Java &amp; Python</span></div>
                                         <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
                                     </li>
                                     <li>
@@ -235,7 +243,7 @@
                                 <span style="font-size: 0.7em; margin-left: auto;">October 2025 - July 2027</span>
                             </p>
 
-                            <h1 class="degree">Master of Science in Computer Science</h1>
+                            <h3 class="degree">Master of Science in Computer Science</h3>
                             <br>
 
                             <p class="institution">
@@ -246,7 +254,7 @@
                                 <span style="font-size: 0.7em; margin-left: auto;">October 2021 - July 2024</span>
                             </p>
 
-                            <h1 class="degree">Bachelor of Science in Computer Engineering</h1>
+                            <h3 class="degree">Bachelor of Science in Computer Engineering</h3>
                             <br>
 
                             <div class="courses">
@@ -271,7 +279,7 @@
 
                     <div class="tab-content" data-tab-content="awards">
                         <h3 class="h4 title section-title syne-header">
-                            <a href="https://www.cassini.eu/hackathons/" target="_blank" class="quiz-link">7th CASSINI Hackathon</a>
+                            <a href="https://www.cassini.eu/hackathons/" target="_blank" rel="noopener" class="quiz-link">7th CASSINI Hackathon</a>
                         </h3>
 
                         <ul class="grid-list">
@@ -282,7 +290,7 @@
                         <br>
 
                         <h3 class="h4 title section-title syne-header">
-                            <a href="https://www.raiffeisen.al/sq/about-us/Innovation/certifications/cyber-frontiers-hackathon-2024/Doris-Kole.html" target="_blank" class="quiz-link">CyberFrontiers Hackathon</a>
+                            <a href="https://www.raiffeisen.al/sq/about-us/Innovation/certifications/cyber-frontiers-hackathon-2024/Doris-Kole.html" target="_blank" rel="noopener" class="quiz-link">CyberFrontiers Hackathon</a>
                         </h3>
 
                         <ul class="grid-list">
@@ -292,7 +300,7 @@
                         </ul>
 
                         <h3 class="h4 title section-title syne-header">
-                            <a href="https://www.ebf.eu/ebf-media-centre/european-money-quiz-initiative-wins-pa-award-in-brussels/" target="_blank" class="quiz-link">European Money Quiz</a>
+                            <a href="https://www.ebf.eu/ebf-media-centre/european-money-quiz-initiative-wins-pa-award-in-brussels/" target="_blank" rel="noopener" class="quiz-link">European Money Quiz</a>
                         </h3>
 
                         <ul class="grid-list">
@@ -307,14 +315,14 @@
                             <p class="institution">
                   <span style="display: flex; align-items: center;">
                     <img src="./assets/images/ts.png" alt="TS logo" style="height: 50px; margin-right: 15px;">
-                    <a href="https://www.touchsupport.com/" target="_blank" class="quiz-link">Touch Support Inc.</a>
+                    <a href="https://www.touchsupport.com/" target="_blank" rel="noopener" class="quiz-link">Touch Support Inc.</a>
                   </span>
                                 <span style="font-size: 0.7em; margin-left: auto;">February 2024 - May 2025</span>
                             </p>
 
-                            <h1 style="font-size: 1em; font-weight: 300; margin-top: 5px; letter-spacing: 0.5px; font-style: italic">
+                            <p class="job-meta">
                                 Chicago, IL &bull; Full-time &bull; Remote
-                            </h1>
+                            </p>
 
                             <h2 class="role">L1 Linux Support Technician</h2>
                             <br>
@@ -328,7 +336,7 @@
                                 <img src="./assets/images/lw.png" alt="Liquid Web Logo" style="height: 100px; margin-right: 35px">
                             </div>
 
-                            <h2 class="role">L3 Windows Support Technician</h2>
+                            <h2 class="role">L2 Windows Support Technician</h2>
                             <p class="syne-body" style="flex-grow: 1;">
                                 Provided technical support for Windows-based servers. <br>
                                 Skilled in Microsoft 365, IIS, MSSQL, ADaaS
@@ -342,27 +350,28 @@
         <!--CTA-->
         <section class="section cta">
             <div class="container">
-                <h2 class="title h2 section-title text-center">Some Projects</h2>
+                <h2 class="title h2 section-title text-center">Projects</h2>
             </div>
         </section>
 
         <!--PROJECTS-->
-        <section class="section project" aria-label="my latest projects" id="project">
+        <section class="section project" aria-label="projects" id="project">
             <ul class="slider-list">
                 <li class="slider-item">
                     <div class="project-card text-center">
                         <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                            <img src="./assets/images/tirana.jpg" width="1000" height="763" loading="lazy" alt="Project 1" class="img-cover">
-                            <a href="https://github.com/doriskole/TiranaGoesGreen" class="btn btn:hover">
-                                <span class="span">Project's repository</span>
+                            <img src="./assets/images/tirana.jpg" width="1000" height="763" loading="lazy" alt="Satellite map preview for Tirana Goes Green" class="img-cover">
+                            <a href="https://github.com/doriskole/TiranaGoesGreen" class="btn btn:hover" target="_blank" rel="noopener">
+                                <span class="span">View repository</span>
                                 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                             </a>
                         </div>
                         <div class="card-content">
                             <p class="card-subtitle">Python, HTML/CSS/JS</p>
                             <h3 class="title h3">
-                                <a href="https://github.com/doriskole/TiranaGoesGreen" class="card-title">TiranaGoesGreen</a>
+                                <a href="https://github.com/doriskole/TiranaGoesGreen" class="card-title" target="_blank" rel="noopener">Tirana Goes Green</a>
                             </h3>
+                            <p class="card-description">A sustainability-focused project exploring greener urban choices for Tirana.</p>
                         </div>
                     </div>
                 </li>
@@ -370,17 +379,18 @@
                 <li class="slider-item">
                     <div class="project-card text-center">
                         <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                            <img src="./assets/images/uni.png" width="1000" height="763" loading="lazy" alt="Project2" class="img-cover">
-                            <a href="https://github.com/doriskole/RateApplicationUniversity2" class="btn btn:hover">
-                                <span class="span">Project's repository</span>
+                            <img src="./assets/images/uni.png" width="1000" height="763" loading="lazy" alt="Course Feedback App interface preview" class="img-cover">
+                            <a href="https://github.com/doriskole/RateApplicationUniversity2" class="btn btn:hover" target="_blank" rel="noopener">
+                                <span class="span">View repository</span>
                                 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                             </a>
                         </div>
                         <div class="card-content">
                             <p class="card-subtitle">Java, SpringBoot, HTML</p>
                             <h3 class="title h3">
-                                <a href="https://github.com/doriskole/RateApplicationUniversity2" class="card-title">CourseFeedbackApp</a>
+                                <a href="https://github.com/doriskole/RateApplicationUniversity2" class="card-title" target="_blank" rel="noopener">Course Feedback App</a>
                             </h3>
+                            <p class="card-description">A web application for collecting and organizing university course feedback.</p>
                         </div>
                     </div>
                 </li>
@@ -388,35 +398,18 @@
                 <li class="slider-item">
                     <div class="project-card text-center">
                         <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                            <img src="./assets/images/weka.png" width="1000" height="763" loading="lazy" alt="Project 3" class="img-cover">
-                            <a href="https://github.com/doriskole/Bachelor-thesis" class="btn btn:hover">
-                                <span class="span">Project's repository</span>
-                                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                            </a>
-                        </div>
-                        <div class="card-content">
-                            <p class="card-subtitle">Java, Algorithms, WEKA</p>
-                            <h3 class="title h3">
-                                <a href="https://github.com/doriskole/Bachelor-thesis" class="card-title">Spam Emails Classifier</a>
-                            </h3>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="slider-item">
-                    <div class="project-card text-center">
-                        <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                            <img src="./assets/images/f1.avif" width="1000" height="763" loading="lazy" alt="Project 4" class="img-cover">
-                            <a href="https://github.com/doriskole/F1Race" class="btn btn:hover">
-                                <span class="span">Project's repository</span>
+                            <img src="./assets/images/f1.avif" width="1000" height="763" loading="lazy" alt="Formula 1 Management project preview" class="img-cover">
+                            <a href="https://github.com/doriskole/F1Race" class="btn btn:hover" target="_blank" rel="noopener">
+                                <span class="span">View repository</span>
                                 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                             </a>
                         </div>
                         <div class="card-content">
                             <p class="card-subtitle">Java, JavaSwing</p>
                             <h3 class="title h3">
-                                <a href="https://github.com/doriskole/F1Race" class="card-title">Formula 1 management</a>
+                                <a href="https://github.com/doriskole/F1Race" class="card-title" target="_blank" rel="noopener">Formula 1 Management</a>
                             </h3>
+                            <p class="card-description">A desktop application for managing Formula 1 race and driver information.</p>
                         </div>
                     </div>
                 </li>
@@ -424,7 +417,7 @@
         </section>
 
         <!-- Reviews -->
-        <section class="section testi" aria-label="What our client says" id="review">
+        <section class="section testi" aria-label="recommendation" id="review">
             <div class="container">
                 <div class="testi-content">
                     <blockquote class="title h4 section-text">
@@ -433,7 +426,7 @@
 
                     <div>
                         <p class="title h5 card-title">
-                            <a href="https://www.linkedin.com/in/doris-kole/details/recommendations">
+                            <a href="https://www.linkedin.com/in/doris-kole/details/recommendations" target="_blank" rel="noopener">
                                 Lizaveta Barysevich
                             </a>
                         </p>
@@ -454,9 +447,14 @@
             <div class="container contact-container">
                 <div class="contact-content contact-split">
                     <form action="https://formspree.io/f/xovqwoag" method="POST" class="contact-form contact-form-card">
-                        <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
-                        <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required class="input-field">
-                        <textarea name="message" placeholder="Write your message, and I will get back at you :)" required class="input-field"></textarea>
+                        <label class="sr-only" for="contact-name">Full name</label>
+                        <input id="contact-name" type="text" name="name" placeholder="Full name" autocomplete="name" required class="input-field">
+
+                        <label class="sr-only" for="contact-email">Email address</label>
+                        <input id="contact-email" type="email" name="email_address" placeholder="Email address" autocomplete="email" required class="input-field">
+
+                        <label class="sr-only" for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" placeholder="Write your message, and I will get back to you." required class="input-field"></textarea>
 
                         <button type="submit" class="btn contact-submit">
                             <span>Submit</span>
@@ -470,7 +468,7 @@
                                 <div class="item-icon">
                                     <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
                                 </div>
-                                <div><span class="title h6">+43 678 7924323</span></div>
+                                <div><a class="title h6 contact-link" href="tel:+436787924323">+43 678 7924323</a></div>
                             </li>
 
                             <li class="contact-item">
@@ -478,7 +476,7 @@
                                     <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
                                 </div>
                                 <div>
-                                    <address class="title h6">Vienna <br> AUSTRIA</address>
+                                    <address class="title h6">Vienna, Austria</address>
                                 </div>
                             </li>
 
@@ -486,7 +484,7 @@
                                 <div class="item-icon">
                                     <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
                                 </div>
-                                <div><span class="title h6">koledoris18@gmail.com</span></div>
+                                <div><a class="title h6 contact-link" href="mailto:koledoris18@gmail.com">koledoris18@gmail.com</a></div>
                             </li>
                         </ul>
                     </div>
@@ -500,7 +498,7 @@
 <!-- FOOTER -->
 <footer class="footer footer-accent">
     <div class="container footer-inner">
-        <p class="copyright">&copy; 2025 Doris Kole</p>
+        <p class="copyright">&copy; 2026 Doris Kole</p>
 
         <a href="#top" class="back-top-btn">
             <span class="span">Back To Top</span>
