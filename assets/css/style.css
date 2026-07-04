@@ -987,7 +987,10 @@ body, html { overflow-x: hidden; }
   font-weight: bold;
   line-height: 1.1;
   letter-spacing: 0;
-  color: var(--text-white);
+  color: #333;
+  background: linear-gradient(90deg, #42736d, #ddad6d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding: 0;
 }
 
@@ -1114,7 +1117,7 @@ body, html { overflow-x: hidden; }
 
 .big-text {
   display: inline-block;
-  font-size: 8rem;
+  font-size: min(15vw, 19rem);
   color: #dfeedf;
   z-index: 0;
   font-weight: 900;
@@ -1127,9 +1130,9 @@ body, html { overflow-x: hidden; }
 }
 
 .small-text {
-  font-size: 2rem;
+  font-size: min(4vw, 4rem);
   font-weight: 500;
-  letter-spacing: 0;
+  letter-spacing: 1.2rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1244,7 +1247,7 @@ body, html { overflow-x: hidden; }
   .tab-content { padding: 60px; }
   .tab-content .grid-list { gap: 50px; }
 
-  .big-text { font-size: 12rem; }
+  .big-text { font-size: min(15vw, 19rem); }
 }
 
 @media (max-width: 768px) {
@@ -1327,8 +1330,11 @@ body, html { overflow-x: hidden; }
   .footer-inner { justify-content: center; }
   .copyright { margin-bottom: 0; }
 
-  .big-text { font-size: 5.6rem; }
-  .small-text { font-size: 1.8rem; }
+  .big-text { font-size: 7rem; }
+  .small-text {
+    font-size: 1.8rem;
+    letter-spacing: 0.45rem;
+  }
 }
 
 /* Reduced motion */
